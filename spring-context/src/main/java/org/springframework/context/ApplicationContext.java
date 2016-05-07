@@ -66,8 +66,6 @@ public interface ApplicationContext extends EnvironmentCapable, ListableBeanFact
 	/**
 	 * Return a name for the deployed application that this context belongs to.
 	 * @return a name for the deployed application, or the empty String by default
-	 *
-	 * aa
 	 */
 	String getApplicationName();
 
